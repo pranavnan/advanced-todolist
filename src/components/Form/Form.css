@@ -1,0 +1,19 @@
+input::placeholder,
+textarea::placeholder {
+  opacity: 0.5;
+}
+
+.title {
+  width: 100%;
+}
+
+.description {
+  width: 100%;
+}
+
+.date {
+  font-size: 1.2rem !important;
+  font-weight: 400;
+  margin-top: -3rem;
+  opacity: 0.8;
+}

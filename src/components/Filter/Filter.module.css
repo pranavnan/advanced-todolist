@@ -1,0 +1,39 @@
+.container {
+  text-align: center;
+}
+
+.form__container select {
+  outline: none;
+  font-size: 1.1rem;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+  border: none;
+  background-color: #fceab8;
+  padding: 0.4rem 0.75rem;
+  /* max-width: 6rem; */
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.form__container select:focus {
+  border: none;
+  outline: none;
+}
+
+.form__container button {
+  border-radius: 10px;
+
+  /* margin-left: 1rem; */
+  font-size: 1.2rem;
+  background-color: #f8cf5a;
+  padding: 0.38rem 1rem;
+  outline: none;
+  border: none;
+  color: #000;
+  cursor: pointer;
+}
+
+.form__container button:active,
+.form__container select:active {
+  scale: 0.96;
+}
